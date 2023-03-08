@@ -49,6 +49,16 @@
 } 
 
 /* 6. exercice-6 */
+.exercice-6 .container {
+  flex-flow: row wrap-reverse;
+  justify-content: stretch;
+  align-content: space-between;
+  align-items: baseline;
+}
+
+.exercice-6 .container .element {
+  flex-grow: 1;
+}
 
 /* 7. exercice-7 */
 .exercice-7 .container {
