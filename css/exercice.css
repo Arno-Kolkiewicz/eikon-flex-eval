@@ -1,6 +1,7 @@
 .container {
   display: flex;
 }
+
 /* 1. exercice-1 */
 .exercice-1 .container {
   flex-direction: row;
@@ -41,6 +42,7 @@
 .exercice-4 .container .element-pink {
   align-self: flex-start;
 }
+
 /* 5. exercice-5 */
 .exercice-5 .container {
   flex-flow: row wrap;
@@ -99,4 +101,3 @@
 .exercice-10 .container .element {
   margin: auto;
 }
-
